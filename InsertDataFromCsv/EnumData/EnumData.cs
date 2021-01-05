@@ -9,6 +9,9 @@ namespace InsertDataFromCsv.EnumData
     public enum DataType
     {
         OES=0,
-        CP
+        CP,
+        LP,
+        EQP,
+        PSM
     }
 }

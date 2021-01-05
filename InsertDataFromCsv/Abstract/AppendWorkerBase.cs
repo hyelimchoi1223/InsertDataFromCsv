@@ -11,10 +11,10 @@ namespace InsertDataFromCsv.Abstract
     {
         public abstract DataType DataType { get; }
         public abstract void SetParentDir(string path);
-        public abstract string ParentDirPath { get; set; }
+        protected abstract string ParentDirPath { get; set; }
         public abstract void Append();
         public abstract void ExecuteInsert<T>(List<T> list);
-        public abstract List<T> GetCsvFile<T>(string path, DateTime testDate, string name = "");
+        public abstract List<T> GetCsvFile<T>(string path, DateTime testDate, string name = "");        
         protected DateTime ConvertDateTime(string date, string time)
         {
             int year = 0, month = 0, day = 0, hour = 0, minute = 0, second = 0, milli = 0;

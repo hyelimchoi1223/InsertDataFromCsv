@@ -167,10 +167,19 @@
   <ItemGroup>
     <Compile Include="Abstract\AppendWorkerBase.cs" />
     <Compile Include="AppendWorker\CPWorker.cs" />
+    <Compile Include="AppendWorker\PSMHeaderWorker.cs" />
+    <Compile Include="AppendWorker\EQPHeaderWorker.cs" />
+    <Compile Include="AppendWorker\PSMWorker.cs" />
+    <Compile Include="AppendWorker\EQPWorker.cs" />
+    <Compile Include="AppendWorker\LPWorker.cs" />
     <Compile Include="DBHelper.cs" />
     <Compile Include="AppendWorker\OESWorker.cs" />
     <Compile Include="Model\CpItem.cs" />
     <Compile Include="EnumData\EnumData.cs" />
+    <Compile Include="Model\DeviceFileHeadHistoryItem.cs" />
+    <Compile Include="Model\PsmItem.cs" />
+    <Compile Include="Model\EqpItem.cs" />
+    <Compile Include="Model\LpItem.cs" />
     <Compile Include="Model\OesItem.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
